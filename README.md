@@ -8,7 +8,8 @@ Kafka Workshop as part of the module-Enterprise Software Development 2020-2021 b
 For the successful participation in the workshop, [Docker](https://www.docker.com/get-started) as well as a IDE (e.g. [IntelliJ](https://www.jetbrains.com/idea/download/) or [Netbeans](https://netbeans.apache.org/download/index.html))have to be previously installed by the participants.
 If using Netbeans then a http request client should be installed such as [Postman](https://www.postman.com/downloads/) to be used sending requests from the Demo project.
 ## Starting up the demo project (Spring Apache Kafka)
-The demo project is a Maven project which has been set up using the Spring boot Apache Kafka Template which uses The spring for Apache kafka dependency and spring web dependancy
+The demo project is a Maven project which has been set up using the Spring boot Apache Kafka Template which uses The spring for Apache kafka dependency and spring web dependancy. If you want to experiment with setting up a spring boot Apache kafka project this can be done on [Spring](http://start.spring.io/).
+
 1. First clone the repository.
 
 2. Then run `docker-compose up` in the root of the repository, docker will now download and start kafka and zookeeper for you.
