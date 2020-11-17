@@ -5,11 +5,18 @@ Kafka Workshop as part of the module-Enterprise Software Development 2020-2021 b
   * [Starting up the demo project](#Demo)
     
   ## Prerequisites
-For the successful participation in the workshop, [Docker](https://www.docker.com/get-started) as well as a IDE (e.g. [IntelliJ](https://www.jetbrains.com/idea/download/) or [Netbeans](https://netbeans.apache.org/download/index.html) )have to be previously installed by the participants.
+For the successful participation in the workshop, [Docker](https://www.docker.com/get-started) as well as a IDE (e.g. [IntelliJ](https://www.jetbrains.com/idea/download/) or [Netbeans](https://netbeans.apache.org/download/index.html))have to be previously installed by the participants.
+If using Netbeans then a http request client should be installed such as [Postman](https://www.postman.com/downloads/) to 
 ## Starting up the demo project
 1. First clone the repository.
 
 2. Then run `docker-compose up` in the root of the repository, docker will now download and start kafka and zookeeper for you.
+3. Open the Project on your choosen IDE
+4. Within the project run the KafkaWorkshopApplication (java class)
+5. The demo project will start
+### if using Intellij
+
+
 ## Documentation for the libraries
 
 ### Apache Kafka documentation
