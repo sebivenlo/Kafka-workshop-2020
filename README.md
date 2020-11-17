@@ -19,7 +19,7 @@ to test out sending a message from the `KafkaProducer` (java class) go to:
 1.Tools on the navigation bar of Intellij
 2.Navigate to Http Client and choose `Test Restful Web Service`
 3.use the Post method to send a message from the `KafkaProducer` to `KafkaConsumer`
-`POST http://localhost:8080/publish?message=hello`
+POST `http://localhost:8080/publish?message=hello`
 
 
 ## Documentation for the libraries
