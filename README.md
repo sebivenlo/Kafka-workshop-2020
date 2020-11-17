@@ -6,7 +6,7 @@ Kafka Workshop as part of the module-Enterprise Software Development 2020-2021 b
     
   ## Prerequisites
 For the successful participation in the workshop, [Docker](https://www.docker.com/get-started) as well as a IDE (e.g. [IntelliJ](https://www.jetbrains.com/idea/download/) or [Netbeans](https://netbeans.apache.org/download/index.html))have to be previously installed by the participants.
-If using Netbeans then a http request client should be installed such as [Postman](https://www.postman.com/downloads/) to 
+If using Netbeans then a http request client should be installed such as [Postman](https://www.postman.com/downloads/) to be used sending requests from the Demo project.
 ## Starting up the demo project (Spring Apache Kafka)
 1. First clone the repository.
 
@@ -18,9 +18,14 @@ If using Netbeans then a http request client should be installed such as [Postma
 To test out sending a message from the `KafkaProducer` (java class) go to:
 1.Tools on the navigation bar of Intellij
 2.Navigate to Http Client and choose `Test Restful Web Service`
-3.use the Post method to send a message from the `KafkaProducer` to `KafkaConsumer` e.g (POST `http://localhost:8080/publish?message=hello`)
-
-
+3.use the Post method to send a message from the `KafkaProducer` to `KafkaConsumer` e.g (`POST http://localhost:8080/publish?message=hello`)
+4.click run, the message hello will be printed out by the consumer in the running `KafkaWorkshopApplication`
+### if using Netbeans
+To test out sending a message from the `KafkaProducer` (java class) open:
+1.The Postman Application that you previously installed
+2.Use the post method and type in `http://localhost:8080/publish`
+3.For the key field Type in `message` and for the value field type in the message you would like to send to the `Kafkaconsumer`.
+4.Click send, the message you typed in the Value field will be printed out by the consumer in the running `KafkaWorkshopApplication`
 
 ## Documentation for the libraries
 
