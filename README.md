@@ -2,7 +2,7 @@
 Kafka Workshop as part of the module-Enterprise Software Development 2020-2021 by Kelvin Akuffo and Ibrahim Okumu
 ## Table of contents
   * [Prerequisites](#prerequisites)
-  * [Installation](#installation)
+  * [Starting up the demo project](#Demo)
     
   ## Prerequisites
 For the successful participation in the workshop, [Docker](https://www.docker.com/get-started) as well as a IDE (e.g. [IntelliJ](https://www.jetbrains.com/idea/download/) or [Netbeans](https://netbeans.apache.org/download/index.html) )have to be previously installed by the participants.
