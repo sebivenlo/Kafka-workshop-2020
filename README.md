@@ -23,9 +23,9 @@ To test out sending a message from the `KafkaProducer` (java class) go to:
 #### Step 2:
 2.Navigate to Http Client and choose `Test Restful Web Service`
 #### Step 3:
-3.use the Post method to send a message from the `KafkaProducer` to `KafkaConsumer` e.g (`POST http://localhost:8080/publish?message=hello`)
+3.Use the Post method to send a message from the `KafkaProducer` to `KafkaConsumer` e.g (`POST http://localhost:8080/publish?message=hello`)
 #### Step 4:
-4.click run, the message hello will be printed out by the consumer in the running `KafkaWorkshopApplication`
+4.Click run, the message hello will be printed out by the consumer in the running `KafkaWorkshopApplication`
 ### If using Netbeans
 To test out sending a message from the `KafkaProducer` (java class) open:
 #### Step 1:
