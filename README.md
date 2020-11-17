@@ -14,12 +14,12 @@ If using Netbeans then a http request client should be installed such as [Postma
 3. Open the Project on your choosen IDE
 4. Within the project run the `KafkaWorkshopApplication` (java class)
 5. The demo project will start and run the Spring Apache Kafka
-### if using Intellij To test out sending a message from the `KafkaProducer` (java class) go to
-: 
+### if using Intellij 
+To test out sending a message from the `KafkaProducer` (java class) go to:
 1.Tools on the navigation bar of Intellij
 2.Navigate to Http Client and choose `Test Restful Web Service`
-3.use the Post method to send a message from the `KafkaProducer` to `KafkaConsumer`
-POST `http://localhost:8080/publish?message=hello`
+3.use the Post method to send a message from the `KafkaProducer` to `KafkaConsumer` e.g (POST `http://localhost:8080/publish?message=hello`)
+
 
 
 ## Documentation for the libraries
