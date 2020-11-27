@@ -3,6 +3,8 @@ Kafka Workshop as part of the module-Enterprise Software Development 2020-2021 b
 ## Table of contents
   * [Prerequisites](#prerequisites)
   * [Starting up the demo project](#starting-the-demo-project-simple-messaging-service-spring-apache-kafka)
+  * [If using Intellij](#if-using-intellij)
+  * [If using Netbeans](#if-using-netbeans) 
 
     
   ## Prerequisites
