@@ -2,7 +2,7 @@
 Kafka Workshop as part of the module-Enterprise Software Development 2020-2021 by Kelvin Akuffo and Ibrahim Okumu
 ## Table of contents
   * [Prerequisites](#prerequisites)
-  * [Starting up the demo project](#Starting the demo project)
+  * [Starting up the demo project](#Starting)
 
     
   ## Prerequisites
