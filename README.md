@@ -3,8 +3,8 @@ Kafka Workshop as part of the module-Enterprise Software Development 2020-2021 b
 ## Table of contents
   * [Prerequisites](#prerequisites)
   * [Starting up the demo project](#Demo)
-  ** [If using Intellij]
-  ** [If using Netbeans]
+  ** [If using Intellij](#Intellij)
+  ** [If using Netbeans](#Netbeans)
     
   ## Prerequisites
 To participation in the workshop, [Docker](https://www.docker.com/get-started) and an IDE ([IntelliJ](https://www.jetbrains.com/idea/download/) or [Netbeans](https://netbeans.apache.org/download/index.html)) must be installed.
